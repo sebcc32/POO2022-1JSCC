@@ -17,9 +17,9 @@ private:
 public:
     Cuadrado();
     Cuadrado(float lado);
-    void dibujarFigura();
-    float calcularArea();
-    double calcularPerimetro();
+    void dibujarFigura() override;
+    float calcularArea() override;
+    double calcularPerimetro() override;
 };
 
 
