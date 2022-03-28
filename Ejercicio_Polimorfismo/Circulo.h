@@ -19,9 +19,9 @@ private:
 public:
     Circulo();
     Circulo(float radio);
-    void dibujarFigura();
-    float calcularArea();
-    double calcularPerimetro();
+    void dibujarFigura() override;
+    float calcularArea() override;
+    double calcularPerimetro() override;
 };
 
 
