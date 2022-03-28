@@ -15,8 +15,8 @@ private:
 public:
     Rombo();
     Rombo(float lado, float diagonalMayor, float diagonalMenor);
-    void dibujarFigura();
-    float calcularArea();
+    void dibujarFigura() override;
+    float calcularArea() override;
     double calcularPerimetro() override;
 };
 
