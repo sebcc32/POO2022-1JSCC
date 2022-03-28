@@ -14,8 +14,8 @@ private:
 public:
     Rectangulo();
     Rectangulo(float base, float altura);
-    void dibujarFigura();
-    float calcularArea();
+    void dibujarFigura() override;
+    float calcularArea() override;
     double calcularPerimetro() override;
 };
 
