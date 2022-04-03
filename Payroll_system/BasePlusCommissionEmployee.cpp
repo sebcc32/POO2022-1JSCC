@@ -4,8 +4,8 @@
 
 #include "BasePlusCommissionEmployee.h"
 
-BasePlusCommissionEmployee::BasePlusCommissionEmployee(const string &first, const string &last, const string &ssn, double sales, double rate, double salaty) : CommissionEmployee(first, last, ssn, sales, rate){
-    setBaseSalary(salaty);
+BasePlusCommissionEmployee::BasePlusCommissionEmployee(const string &first, const string &last, const string &ssn, double sales, double rate, double salary) : CommissionEmployee(first, last, ssn, sales, rate){
+    setBaseSalary(salary);
 }
 
 void BasePlusCommissionEmployee::setBaseSalary(double salary){
@@ -23,5 +23,5 @@ double BasePlusCommissionEmployee::earnings() const{
 void BasePlusCommissionEmployee::print() const{
     cout<<"base-salaried: ";
     CommissionEmployee::print();
-    cout<<"; base salaty:"<<getBaseSalary();
+    cout<<"; base salary: "<<getBaseSalary();
 }
