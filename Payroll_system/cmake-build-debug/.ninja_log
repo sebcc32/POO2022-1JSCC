@@ -1,0 +1,15 @@
+# ninja log v5
+71	1052	6707061244731178	CMakeFiles/Payroll_system.dir/SalariedEmployee.cpp.obj	30eaffd767fd2cb4
+78	1059	6707061244731178	CMakeFiles/Payroll_system.dir/CommissionEmployee.cpp.obj	198de59426c99539
+85	1061	6707061244847955	CMakeFiles/Payroll_system.dir/HourlyEmployee.cpp.obj	6cc418f4282704e6
+93	1067	6707061244731178	CMakeFiles/Payroll_system.dir/BasePlusCommissionEmployee.cpp.obj	d4fdb2dc1370400b
+64	1069	6707061244847955	CMakeFiles/Payroll_system.dir/Employee.cpp.obj	3c0a049a7915386e
+1	1277	6707061247082850	CMakeFiles/Payroll_system.dir/main.cpp.obj	3354ab6f94d2d11c
+1279	2103	6707061255262583	Payroll_system.exe	a0006c7fd4bc8563
+5	652	6707064403066236	CMakeFiles/Payroll_system.dir/DailyEmployee.cpp.obj	1351416f89638d0
+653	913	6707064405681397	Payroll_system.exe	32b1c04d49e5f067
+6	692	6707090374950712	CMakeFiles/Payroll_system.dir/DailyEmployee.cpp.obj	1351416f89638d0
+693	1016	6707090378080239	Payroll_system.exe	32b1c04d49e5f067
+54	890	6707334521333058	CMakeFiles/Payroll_system.dir/DailyEmployee.cpp.obj	1351416f89638d0
+5	1094	6707334523367315	CMakeFiles/Payroll_system.dir/main.cpp.obj	3354ab6f94d2d11c
+1095	1558	6707334527896023	Payroll_system.exe	32b1c04d49e5f067

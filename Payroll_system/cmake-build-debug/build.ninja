@@ -85,6 +85,12 @@ build CMakeFiles/Payroll_system.dir/BasePlusCommissionEmployee.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\Payroll_system.dir
   OBJECT_FILE_DIR = CMakeFiles\Payroll_system.dir
 
+build CMakeFiles/Payroll_system.dir/DailyEmployee.cpp.obj: CXX_COMPILER__Payroll_system_Debug C$:/Users/sebas/Desktop/projects/github/POO2022-1JSCC/Payroll_system/DailyEmployee.cpp || cmake_object_order_depends_target_Payroll_system
+  DEP_FILE = CMakeFiles\Payroll_system.dir\DailyEmployee.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Payroll_system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Payroll_system.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Payroll_system
@@ -93,7 +99,7 @@ build CMakeFiles/Payroll_system.dir/BasePlusCommissionEmployee.cpp.obj: CXX_COMP
 #############################################
 # Link the executable Payroll_system.exe
 
-build Payroll_system.exe: CXX_EXECUTABLE_LINKER__Payroll_system_Debug CMakeFiles/Payroll_system.dir/main.cpp.obj CMakeFiles/Payroll_system.dir/Employee.cpp.obj CMakeFiles/Payroll_system.dir/SalariedEmployee.cpp.obj CMakeFiles/Payroll_system.dir/HourlyEmployee.cpp.obj CMakeFiles/Payroll_system.dir/CommissionEmployee.cpp.obj CMakeFiles/Payroll_system.dir/BasePlusCommissionEmployee.cpp.obj
+build Payroll_system.exe: CXX_EXECUTABLE_LINKER__Payroll_system_Debug CMakeFiles/Payroll_system.dir/main.cpp.obj CMakeFiles/Payroll_system.dir/Employee.cpp.obj CMakeFiles/Payroll_system.dir/SalariedEmployee.cpp.obj CMakeFiles/Payroll_system.dir/HourlyEmployee.cpp.obj CMakeFiles/Payroll_system.dir/CommissionEmployee.cpp.obj CMakeFiles/Payroll_system.dir/BasePlusCommissionEmployee.cpp.obj CMakeFiles/Payroll_system.dir/DailyEmployee.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Payroll_system.dir

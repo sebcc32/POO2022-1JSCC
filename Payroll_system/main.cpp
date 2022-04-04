@@ -3,17 +3,19 @@
 #include "HourlyEmployee.h"
 #include "CommissionEmployee.h"
 #include "BasePlusCommissionEmployee.h"
+#include "DailyEmployee.h"
 #include <iomanip>
 #include <vector>
 #include <typeinfo>
 
 int main(){
-    cout<<fixed<<setprecision(4);
-    vector<Employee*> employees(4);
+    cout<<fixed<<setprecision(5);
+    vector<Employee*> employees(5);
     employees[0]=new SalariedEmployee("John", "Smith", "111-11-1111",800);
     employees[1]=new HourlyEmployee("Karen", "Price", "222-22-2222",16.75,40);
     employees[2]=new CommissionEmployee("Sue", "Jones", "333-33-3333",10000,.06);
     employees[3]=new BasePlusCommissionEmployee("Bob", "Lewis", "444-44-4444",500,.04,300);
+    employees[4]=new DailyEmployee("Sebastian", "Camacho", "555-55-5555",25);
     for(size_t i=0;i<employees.size();i++){
         employees[i]->print();
         cout<<endl;
